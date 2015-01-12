@@ -1,4 +1,4 @@
-overmindgc.github.com
+overmindgc's page
 =====================
 
-我的个人主页
+爱生活，爱Coding...
