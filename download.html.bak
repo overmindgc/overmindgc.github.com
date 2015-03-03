@@ -22,7 +22,7 @@ fieldset,legend,input,button,textarea,select,p,blockquote,th,td,span,frame,ifram
   <div class="box02" style=" margin-top:300px; width:650px; height:81px"><label>
         <font style="font-size: 50pt">嗖嗖</font></label></div>
   <div class="button" style="width: 666px; height: 152px" >
-        <p align="center"><a href="#" style=" margin-top:650px;" target="_blank"><label onclick="openurl('itms-services://?action=download-manifest&url=https://overmindgc.github.io/ITAS2-New.plist');">
+        <p align="center"><a href="#" style=" margin-top:650px;" target="_blank"><label onclick="openurl('itms-services://?action=download-manifest&url=https://us.zhouzaiqing.com/itas/iOS/ITAS2-New.plist');">
         <font style="font-size: 40pt">iOS 7.0以上在线安装</font></label></a><font style="font-size: 40pt"> </font> </div>
 </div>
 </body>
