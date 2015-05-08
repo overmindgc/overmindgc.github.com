@@ -3,10 +3,42 @@
 <head>
     <meta name="viewport" content="maximum-scale=2,user-scalable=yes">
     <meta charset='utf-8'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/resumeStyle.css" media="screen">
+    <link id="blackCss" rel="stylesheet" type="text/css" href="stylesheets/resumeStyle.css" media="screen">
     <title>宫辰的中文简历</title>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="http://html2canvas.hertzen.com/build/html2canvas.js"></script>
+
+    <script type="text/javascript">
+        function printById(id) {
+            changeWriteCss();
+            html2canvas(document.getElementById(id), {
+                allowTaint : true,
+                taintTest : false,
+                onrendered : function(canvas) {
+                    canvas.id = "mycanvas";
+                    //document.body.appendChild(canvas);
+                    //生成base64图片数据
+                    var dataUrl = canvas.toDataURL();
+                    var newImg = document.createElement("img");
+                    newImg.src = dataUrl;
+                    /* document.body.appendChild(newImg);  */
+                    /* window.open(newImg.src); */
+                    var printWindow = window.open(newImg.src);
+//                     printWindow.document.write();
+                    printWindow.document.write('<img src="'+newImg.src+'" />')
+                    printWindow.print();
+                }
+            });
+        }
+
+        function changeWriteCss(){
+            var styleCss = document.getElementById("blackCss");
+            styleCss.setAttribute("href","stylesheets/resumeStyle_write.css");
+        }
+    </script>
 </head>
-<body>
+<body id="mainBody">
 <header>
     <div class="container">
         <div class="headerBar"></div>
@@ -99,7 +131,7 @@
         <p>　10.厦门船舶重工BI系统（Webfocus报表系统开发，Java+Flex实现财务模块展现）</p>
         <p>　11.沈阳电力Portal门户以及CMS系统（WebLogic Portal和JavaEE+html实现）</p>
     </div>
-
+    <div style="text-align: center"><a href="javascript:void(0)" onclick="printById('mainBody')">打印页面</a></div>
     <div class="headerBar"></div>
 </div>
 
