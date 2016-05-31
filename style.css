@@ -1,0 +1,23 @@
+body {
+  background: #2e2e2e;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #4d8dbd;
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+.title-subtitle {
+  text-align: center;
+}
