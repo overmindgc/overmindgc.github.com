@@ -32,3 +32,7 @@ function showDivWithId(divId) {
 function hideDivWithId(divId) {
   document.getElementById(divId).style.display = "none";
 }
+
+function showPhoneNo() {
+  document.getElementById("a-phone").innerText = "15010139407";
+}

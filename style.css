@@ -41,19 +41,18 @@ h1 {
 }
 
 .lead-item {
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1;
 }
 
 .lead-content {
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 16px;
   font-weight: 300;
-  line-height: 1.3;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -89,6 +88,7 @@ h1 {
 }
 
 .masthead-sub-brand {
+  margin-top: 5px;
   color: #999999;
   font-size: 14px;
 }
@@ -136,14 +136,15 @@ h1 {
  */
 
 .cover {
-  padding: 0 30px;
+  padding: 0px 30px;
 }
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
 }
 .cover-heading {
-  font-size: 22px;
+  margin-top: 10px;
+  font-size: 20px;
 }
 
 /*
