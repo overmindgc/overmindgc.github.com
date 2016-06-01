@@ -15,6 +15,14 @@ function clickNavButton(buttonId) {
     hideDivWithId("experience-div");
     document.getElementById("experienceLi").className = "";
   }
+
+  if (buttonId == "company-div") {
+    showDivWithId("company-div");
+    document.getElementById("companyLi").className = "active";
+  } else {
+    hideDivWithId("company-div");
+    document.getElementById("companyLi").className = "";
+  }
 }
 
 function showDivWithId(divId) {
