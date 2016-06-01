@@ -40,12 +40,18 @@ h1 {
   font-size: 25px;
 }
 
+img {
+  padding-top: 0px;*/
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
 .lead-item {
   margin-bottom: 15px;
   margin-top: 15px;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1;
+  /*line-height: 1;*/
 }
 
 .lead-content {
@@ -136,6 +142,7 @@ h1 {
  */
 
 .cover {
+  margin-top: 50px;
   padding: 0px 30px;
 }
 .cover .btn-lg {
@@ -143,7 +150,7 @@ h1 {
   font-weight: bold;
 }
 .cover-heading {
-  margin-top: 10px;
+  margin-top: 0px;
   font-size: 20px;
 }
 
